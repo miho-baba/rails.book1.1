@@ -46,6 +46,10 @@ class BooksController < ApplicationController
     redirect_to books_path
   end
 
+  def destroy_all
+    #destroy_allの処理
+  end
+
   private
 
   def book_params
